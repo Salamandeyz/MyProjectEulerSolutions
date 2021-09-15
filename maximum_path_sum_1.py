@@ -1,7 +1,7 @@
 length = 0
 lst = []
 
-with open("triangle1.txt", "r") as file:
+with open("data/triangle1.txt", "r") as file:
     for line in file:
         length += 1
         lst.append(list(map(int, line.split())))
